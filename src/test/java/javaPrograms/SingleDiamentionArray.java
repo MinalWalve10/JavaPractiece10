@@ -33,5 +33,14 @@ public class SingleDiamentionArray {
 			System.out.println(Print);
 		}
 
+		
+		//REVERSE ARRAY
+		  int b[]= {10, 20, 30, 50, 10, 30, 90, 80, 40, 40};
+			
+			for(int i=b.length-1; i>0; i--)
+			{
+			
+			System.out.println(b[i]);
+			}
 }
 }
